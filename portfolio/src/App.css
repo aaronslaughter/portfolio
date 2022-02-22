@@ -1,0 +1,68 @@
+.nav {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: center;
+  justify-items: center;
+  background-color: red;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0
+}
+
+.about {
+  padding-top: 4em;
+  padding-left: 1em;
+  padding-right: 1em;
+}
+
+.contact {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.address {
+  white-space: nowrap;
+}
+
+#hero {
+  max-width: 3em;
+  border-radius: 50%;
+  border-style: solid;
+}
+
+.icon-container {
+  display: flex;
+  gap: 1em;
+  font-size: 1em;
+}
+
+.icon {
+  background-color: rgb(72, 70, 105);
+  border-radius: 50%;
+  height: 4em;
+  width: 4em;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: opacity 0.25s;
+}
+
+.icon:hover {
+  opacity: 75%;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .icon {
+    transition: none;
+  }
+}
+
+.icon > * {
+  font-size: 2.5em;
+}
+
+img {
+  width: 100%;
+}
