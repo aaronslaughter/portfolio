@@ -5,7 +5,7 @@ const Nav = ({children}) => {
   return (
     <div>
       <section className='nav'>
-        <img id='hero' src={hero}/>
+        <img id='hero' alt='profile pic' src={hero}/>
         {children}
       </section>
     </div>

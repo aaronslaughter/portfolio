@@ -59,6 +59,8 @@ html {
   justify-content: center;
   align-items: center;
   transition: opacity 0.25s;
+  margin-top: 1em;
+  margin-left: 1em;
 }
 
 .icon:hover {
@@ -73,49 +75,18 @@ img {
   width: 100%;
 }
 
-.hide {
+/* .hide {
   display: none;
+} */
+
+.hide {
+  height: 0px;
 }
 
-.show {
+/* .show {
   animation-duration: 0.66s;
   animation-timing-function: ease;
   animation-name: translate;
-}
-
-@keyframes fadeout {
-  from {
-    opacity: 0;
-    display: auto;
-  }
-
-  to {
-    opacity: 1;
-  }
-}
-
-@keyframes fadein {
-  from {
-    opacity: 0;
-  }
-
-  to {
-    opacity: 1;
-  }
-}
-
-@keyframes slidein {
-  from {
-    opacity: 0;
-    margin-top: 1em;
-    height: 100%;
-  }
-
-  to {
-    opacity: 1;
-    margin-top: 0%;
-    height: 100%;
-  }
 }
 
 @keyframes translate {
@@ -126,6 +97,42 @@ img {
   to {
     transform: translate(0);
   }
+} */
+
+.show {
+  top: 3.6em;
+  position: fixed;
+  width: 100%;
+  height: 100px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  transition: height 0.3s ease-in-out;
+  z-index: 120;
+}
+
+.show a:first-child{
+  margin-top: 10px;
+}
+
+.menu-items {
+  display: none;
+}
+
+p {
+  max-width: 90%;
+  padding-left: 1em;
+}
+
+a {
+  color: black;
+}
+
+a:hover {
+  opacity: 0.5;
 }
 
 #projects, #education, #skills {
@@ -172,7 +179,23 @@ img {
   }
 
   .show {
-    animation-name: none;
+    height: 0px;
+  }
+
+  .hide {
+    display: none;
+  }
+
+  img {
+    max-width: 70%;
+  }
+
+  .menu-items {
+    margin-top: 1em;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
   }
 
   #hero {

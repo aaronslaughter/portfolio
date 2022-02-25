@@ -12,10 +12,19 @@ const About = () => {
       </div>
       <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Placeat voluptates quam assumenda veniam, temporibus voluptate porro itaque illum impedit facilis fugit odit libero atque exercitationem incidunt iusto inventore quidem similique.</p>
       <div className='icon-container'>
-        <a className='icon linkedin' href='https://www.linkedin.com/in/aaron-slaughter1/'>
+        <a 
+          className='icon linkedin' 
+          href='https://www.linkedin.com/in/aaron-slaughter1/'
+          target='_blank'
+          rel='noopener noreferrer'>
           <AiOutlineLinkedin/>
         </a>
-        <a className='icon github'href='https://github.com/aaronslaughter'>
+        <a 
+          className='icon github'
+          href='https://github.com/aaronslaughter'
+          target='_blank'
+          rel='noopener noreferrer'
+        >
           <AiOutlineGithub/>
         </a>
       </div>

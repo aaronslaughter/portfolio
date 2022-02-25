@@ -12,6 +12,7 @@ import DispatchDashboard from './components/DispatchDashboard';
 import SmartRockets from './components/SmartRockets';
 import Education from './components/Education';
 import Skills from './components/Skills';
+import MenuItems from './components/MenuItems';
 
 function App() {
 
@@ -25,16 +26,13 @@ function App() {
             isActive={isActive}
             toggleActive={toggleActive}
           />
-          <BurgerMenuItems
-            isActive={isActive}
-            toggleActive={toggleActive}
-          />
         </MobileNav>
+        <BurgerMenuItems
+          isActive={isActive}
+          toggleActive={toggleActive}
+        />
         <Nav>
-          <BurgerMenuItems
-            isActive={true}
-            toggleActive={toggleActive}
-          />
+          <MenuItems/>
         </Nav>
       </nav>
       <section className='main'>

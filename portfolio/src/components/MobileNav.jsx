@@ -6,7 +6,7 @@ const MobileNav = ({children}) => {
     <div>
       <section className='mobile-nav'>
         <p>Aaron Slaughter</p>
-        <img id='hero' src={hero}/>
+        <img id='hero' alt='profile pic' src={hero}/>
         {children}
       </section>
     </div>
