@@ -2,8 +2,8 @@ import React from 'react'
 
 const Projects = ({children}) => {
   return (
-    <div>
-      <h3>Projects</h3>
+    <div id='projects'>
+      <h2>Projects</h2>
       {children}
     </div>
   )

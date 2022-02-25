@@ -3,12 +3,12 @@ import { AiOutlineGithub, AiOutlineLinkedin } from 'react-icons/ai'
 
 const About = () => {
   return (
-    <div className='about'>
-      <h2>Aaron Slaughter</h2>
+    <div className='about' id='about'>
+      <h1>Aaron Slaughter</h1>
       <div className='contact'>
-        <div className='address'>Baltimore-Washington D.C. Area -</div>
-        <div className='address'>&nbsp;(301)-875-9692 -</div>
-        <div className='address'>&nbsp;aslaugh@gmail.com</div>
+        <div className='address'>Baltimore-Washington D.C. Area -&nbsp;</div>
+        <div className='address'>(301)-875-9692 -&nbsp;</div>
+        <div className='address'>aslaugh@gmail.com</div>
       </div>
       <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Placeat voluptates quam assumenda veniam, temporibus voluptate porro itaque illum impedit facilis fugit odit libero atque exercitationem incidunt iusto inventore quidem similique.</p>
       <div className='icon-container'>

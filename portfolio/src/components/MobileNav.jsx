@@ -1,10 +1,11 @@
 import React from 'react'
 import hero from '../assets/hero_pic.jpeg'
 
-const Nav = ({children}) => {
+const MobileNav = ({children}) => {
   return (
     <div>
-      <section className='nav'>
+      <section className='mobile-nav'>
+        <p>Aaron Slaughter</p>
         <img id='hero' src={hero}/>
         {children}
       </section>
@@ -12,4 +13,4 @@ const Nav = ({children}) => {
   )
 }
 
-export default Nav
+export default MobileNav
