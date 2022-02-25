@@ -37,7 +37,7 @@ function App() {
           />
         </Nav>
       </nav>
-      <section>
+      <section className='main'>
         <About/>
         <Projects>
           <MazeMakr/>

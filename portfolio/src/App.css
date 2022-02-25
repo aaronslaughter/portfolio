@@ -18,6 +18,10 @@ html {
   display: none;
 }
 
+.main > * {
+  margin: 6em 3em 6em 3em;
+}
+
 .about {
   padding-top: 4em;
   padding-left: 1em;
@@ -74,8 +78,6 @@ img {
 }
 
 .show {
-  /* grid-column-start: 1;
-  grid-column-end: 4; */
   animation-duration: 0.66s;
   animation-timing-function: ease;
   animation-name: translate;
@@ -128,6 +130,10 @@ img {
 
 #projects, #education, #skills {
   padding: 1em;
+}
+
+#projects > * {
+  margin: 3em auto 3em auto;
 }
 
 #smart-rockets-img {
