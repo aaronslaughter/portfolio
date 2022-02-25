@@ -2,7 +2,7 @@ import React from 'react'
 
 const BurgerMenuItems = ({isActive, toggleActive}) => {
   return (
-    <div className={isActive ? '' : 'hide'}>
+    <div className={isActive ? 'show' : 'hide'}>
       <ul>
         <li><a href='#about' onClick={() => toggleActive(false)}>About</a></li>
         <li><a href='#projects' onClick={() => toggleActive(false)}>Projects</a></li>
