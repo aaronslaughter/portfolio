@@ -75,29 +75,9 @@ img {
   width: 100%;
 }
 
-/* .hide {
-  display: none;
-} */
-
 .hide {
   height: 0px;
 }
-
-/* .show {
-  animation-duration: 0.66s;
-  animation-timing-function: ease;
-  animation-name: translate;
-}
-
-@keyframes translate {
-  from {
-    transform: translate(400%);
-  }
-
-  to {
-    transform: translate(0);
-  }
-} */
 
 .show {
   top: 3.6em;
